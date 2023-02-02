@@ -18,6 +18,7 @@ Plug 'https://github.com/tc50cal/vim-terminal' " Vim Terminal
 Plug 'https://github.com/terryma/vim-multiple-cursors' " CTRL + N for multiple cursors
 Plug 'https://github.com/preservim/tagbar'
 Plug 'http://github.com/tpope/vim-surround'
+Plug 'https://github.com/neoclide/coc.nvim'  " Auto Completion
 Plug 'challenger-deep-theme/vim', { 'as': 'challenger-deep' }
 
 set encoding=UTF-8
