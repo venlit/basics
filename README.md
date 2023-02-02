@@ -53,4 +53,16 @@ f8: toggle tagbar
 # nerdtree
 ctrl + t -> toggle tree
 
+ctrl + f -> cursor to tree
+
+ctrl + n -> does something idk
+
+# multiple cursors
+https://github.com/terryma/vim-multiple-cursors
+
+# icons
+look here: https://github.com/ryanoasis/vim-devicons
+
+# airline
+look here: https://github.com/vim-airline/vim-airline
 
