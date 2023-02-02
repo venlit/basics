@@ -19,7 +19,6 @@ Plug 'https://github.com/terryma/vim-multiple-cursors' " CTRL + N for multiple c
 Plug 'https://github.com/preservim/tagbar'
 Plug 'http://github.com/tpope/vim-surround'
 Plug 'challenger-deep-theme/vim', { 'as': 'challenger-deep' }
-Plug 'https://github.com/ryanoasis/vim-devicons' " Developer Icons
 
 set encoding=UTF-8
 
