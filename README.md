@@ -66,3 +66,7 @@ look here: https://github.com/ryanoasis/vim-devicons
 # airline
 look here: https://github.com/vim-airline/vim-airline
 
+# autocomplete
+install node.js: https://nodejs.org/dist/v18.13.0/node-v18.13.0-x64.msi
+
+
