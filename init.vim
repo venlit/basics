@@ -6,8 +6,9 @@
 :set smarttab
 :set softtabstop=4
 :set mouse=a
+:set clipboard+=unnamedplus
 
-call plug#begin()
+call plug#begin('~/.config/nvim/plugged')
 
 Plug 'https://github.com/vim-airline/vim-airline'
 Plug 'https://github.com/preservim/nerdtree'
@@ -18,12 +19,13 @@ Plug 'https://github.com/tc50cal/vim-terminal' " Vim Terminal
 Plug 'https://github.com/terryma/vim-multiple-cursors' " CTRL + N for multiple cursors
 Plug 'https://github.com/preservim/tagbar'
 Plug 'http://github.com/tpope/vim-surround'
-Plug 'https://github.com/neoclide/coc.nvim'  " Auto Completion
 Plug 'challenger-deep-theme/vim', { 'as': 'challenger-deep' }
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
-set encoding=UTF-8
 
 call plug#end()
+
+set encoding=UTF-8
 
 nnoremap <C-f> :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
@@ -39,3 +41,5 @@ let g:NERDTreeDirArrowCollapsible="~"
 
 set termguicolors
 colorscheme challenger_deep
+
+
